@@ -3,11 +3,11 @@
 ## example command
 FQfile="trimed_ABC.fastq"   ### trimed reads for plasmid pools
 TARGETfile="example_sgRNA_targets.txt"   ### target information
-
+#
 perl step1_Get_sgRNA_fromPool.pl $FQfile
 #
 perl step1_Get_sgRNA_fromPool.pl $FQfile $TARGETfile
-
+#
 
 ## final outputs
 example_fullymatch.txt # reads statistics that fully covered sgRNA seqs; with header:GeneID	sgRNA	covered_reads_number
