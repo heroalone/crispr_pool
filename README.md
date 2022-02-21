@@ -6,7 +6,7 @@ TARGETfile="example_sgRNA_targets.txt"   ### target information
 #
 perl step1_Get_sgRNA_fromPool.pl $FQfile
 #
-perl step1_Get_sgRNA_fromPool.pl $FQfile $TARGETfile
+perl step2_SearchGRNA_fromPool.pl $FQfile $TARGETfile
 #
 
 ## final outputs
